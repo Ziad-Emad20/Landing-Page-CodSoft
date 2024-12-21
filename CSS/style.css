@@ -23,6 +23,10 @@ nav .social-link{
 nav .social-link li i{
     color: var(--text-color);
     font-size: 18px;
+    transition: .3s;
+}
+nav .social-link li i:hover{
+    transform: scale(1.1);
 }
 nav .contact-top{
     display: flex;
@@ -35,7 +39,7 @@ nav .btn {
     color: var(--text-color);
     border-radius: 30px;
     cursor: pointer;
-    transition: .6s;
+    transition: .3s;
 }
 nav .btn:hover {
     transform: scale(1.1);
